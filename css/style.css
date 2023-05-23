@@ -1,0 +1,110 @@
+body {
+    background-color: #aeb3a2;
+}
+
+header {
+    background-color: #27525e;
+}
+
+.wrap-secure-checkout img {
+    width: 24px;
+}
+
+#loading-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255,255,255,.7);
+    z-index: 99;
+}
+
+#loading-page.hide {
+    display: none !important;
+}
+
+#loading-page img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100px, -100px);
+}
+
+#product-image {
+    max-width: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #26525f;
+    border-color: #26525f;
+}
+
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle,
+.btn-primary.focus,
+.btn-primary:focus {
+    background-color: #1b3b44;
+    border-color: #1b3b44;
+}
+
+.wrap-secure-checkout {
+    opacity: .7;
+}
+
+footer {
+    background-color: #28525e;
+    color: #bbb;
+}
+
+footer a,
+footer a:hover {
+    color: #bbb;
+    text-decoration: underline;
+}
+
+#iubenda-cs-banner {
+    bottom: 0px !important;
+    left: 0px !important;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 99999998 !important;
+    background-color: black;
+}
+.iubenda-cs-content {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: auto;
+    font-family: Helvetica,Arial,FreeSans,sans-serif;
+    font-size: 14px;
+    background: #000;
+    color: #fff;}
+.iubenda-cs-rationale {
+    max-width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+.iubenda-banner-content > p {
+    font-family: Helvetica,Arial,FreeSans,sans-serif;
+    line-height: 1.5;
+}
+.iubenda-cs-close-btn {
+    margin:0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+}
+.iubenda-cs-cookie-policy-lnk {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+}
